@@ -12,6 +12,7 @@
 		B8F283DB1F049FEE00C0757F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8F283D91F049FEE00C0757F /* Main.storyboard */; };
 		B8F283DD1F049FEE00C0757F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8F283DC1F049FEE00C0757F /* Assets.xcassets */; };
 		B8F283E01F049FEE00C0757F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8F283DE1F049FEE00C0757F /* LaunchScreen.storyboard */; };
+		B8F283E81F04A19200C0757F /* BlueTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F283E71F04A19200C0757F /* BlueTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B8F283DC1F049FEE00C0757F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8F283DF1F049FEE00C0757F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8F283E11F049FEE00C0757F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8F283E71F04A19200C0757F /* BlueTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				B8F283D51F049FEE00C0757F /* AppDelegate.swift */,
 				B8F283D71F049FEE00C0757F /* ViewController.swift */,
+				B8F283E71F04A19200C0757F /* BlueTableViewCell.swift */,
 				B8F283D91F049FEE00C0757F /* Main.storyboard */,
 				B8F283DC1F049FEE00C0757F /* Assets.xcassets */,
 				B8F283DE1F049FEE00C0757F /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8F283D81F049FEE00C0757F /* ViewController.swift in Sources */,
+				B8F283E81F04A19200C0757F /* BlueTableViewCell.swift in Sources */,
 				B8F283D61F049FEE00C0757F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +273,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WLDBM3YRW9;
 				INFOPLIST_FILE = BlueTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zappycode.BlueTracker;
@@ -282,6 +287,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WLDBM3YRW9;
 				INFOPLIST_FILE = BlueTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zappycode.BlueTracker;
